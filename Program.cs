@@ -26,7 +26,7 @@ do
     // validacion de entrada para seleccion de opciones
     if (!int.TryParse(Console.ReadLine(), out opcion) || opcion <= 0 || opcion > 5)
     {
-        Console.WriteLine("Debe introducir un numero del 1 al 5 como las opciones del menú.");
+        Console.WriteLine("Mensaje!: Debe introducir un número del 1 al 5 como las opciones del menú.");
     }
     else
     {
@@ -36,28 +36,28 @@ do
             case 1: // sumar
                 Console.WriteLine(sumar());
                 // mensaje para continuar
-                Console.WriteLine("\n Presione ENTER para continuar.");
+                Console.WriteLine("\nPresione ENTER para continuar.");
                 Console.ReadLine();
                 break;
 
             case 2: // restar
                 Console.WriteLine(restar());
                 // mensaje para continuar
-                Console.WriteLine("\n Presione ENTER para continuar.");
+                Console.WriteLine("\nPresione ENTER para continuar.");
                 Console.ReadLine();
                 break;
 
             case 3: // multiplicar
                 Console.WriteLine(mult());
                 // mensaje para continuar
-                Console.WriteLine("\n Presione ENTER para continuar.");
+                Console.WriteLine("\nPresione ENTER para continuar.");
                 Console.ReadLine();
                 break;
 
             case 4: // dividir
-                Console.WriteLine(div());
+                Console.WriteLine($"{div():F2}"); // solo agrega dos digitos para decimales despues del punto
                 // mensaje para continuar
-                Console.WriteLine("\n Presione ENTER para continuar.");
+                Console.WriteLine("\nPresione ENTER para continuar.");
                 Console.ReadLine();
                 break;
         }
@@ -70,17 +70,18 @@ do
        
         Console.WriteLine("\n\t* SUMAR *");
 
-        Console.Write("\nInserte el primer numero: ");
+        Console.Write("\nIngrese el primer número: ");
         while (!int.TryParse(Console.ReadLine(), out num1)) // valida que el dato sea correcto para continuar
         {
             Console.WriteLine("\nMensaje!: Debe ingresar un número.");
-            Console.Write("\nInserte el primer numero: ");
+            Console.Write("\nIngrese el primer número: ");
         }
 
-        Console.Write("Agrege el segundo numero: ");
+        Console.Write("Ingrese el segundo número: ");
         while (!int.TryParse(Console.ReadLine(), out num2))
         {
-            Console.WriteLine("Mensaje!: Debe ingresar un número.");
+            Console.WriteLine("\nMensaje!: Debe ingresar un número.");
+            Console.Write("\nIngrese el segundo número: ");
         }
 
         Console.Write("\nLa adición de esta operación es: ");
@@ -93,16 +94,18 @@ do
 
         Console.WriteLine("\n\t** RESTAR **");
 
-        Console.Write("\nInserte el primer numero: ");
+        Console.Write("\nIngrese el primer número: ");
         while (!int.TryParse(Console.ReadLine(), out num1)) // valida que el dato sea correcto para continuar
         {
-            Console.WriteLine("Mensaje!: Debe ingresar un número válido.");
+            Console.WriteLine("\nMensaje!: Debe ingresar un número válido.");
+            Console.Write("\nIngrese el primer número: ");
         }
 
-        Console.Write("Inserte el segundo numero: ");
+        Console.Write("Ingrese el segundo numero: ");
         while (!int.TryParse(Console.ReadLine(), out num2))
         {
-            Console.WriteLine("Mensaje!: Debe ingresar un número válido.");
+            Console.WriteLine("\nMensaje!: Debe ingresar un número válido.");
+            Console.Write("\nIngrese el segundo número: ");
         }
 
         Console.Write("\nLa diferencia de esta operación es: ");
@@ -116,16 +119,19 @@ do
 
         Console.WriteLine("\n\t*** MULTIPLICAR *** ");
 
-        Console.Write("\nInserte el primer numero: ");
+        Console.Write("\nIngrese el primer número: ");
         while (!int.TryParse(Console.ReadLine(), out num1)) // valida que el dato sea correcto para continuar
         {
-            Console.WriteLine("Mensaje!: Debo ingresar un número válido.");
+            Console.WriteLine("\nMensaje!: Debo ingresar un número válido.");
+            Console.Write("\nIngrese el primer número: ");
         }
 
-        Console.Write("Inserte el segundo numero: ");
+        Console.Write("Ingrese el segundo número: ");
         while (!int.TryParse(Console.ReadLine(), out num2))
         {
-            Console.WriteLine("Mensaje!: Debe ingresar un número válido.");
+            Console.WriteLine("\nMensaje!: Debe ingresar un número válido.");
+            Console.Write("\nIngrese el segundo número: ");
+
         }
 
         Console.Write("\nEl producto de esta operación es: ");
@@ -138,15 +144,17 @@ do
 
         Console.WriteLine("\n\t**** DIVIDIR *****");
 
-        Console.Write("Inserte el primer numero: ");
+        Console.Write("\nIngrese el primer número: ");
         while (!decimal.TryParse(Console.ReadLine(), out num1)) // valida que el dato sea correcto para continuar
         {
-            Console.WriteLine("Mensaje!: Debe ingresar un número válido y mayor a 0.");
+            Console.WriteLine("\nMensaje!: Debe ingresar un número válido y mayor a 0.");
+            Console.Write("\nIngrese el primer número: ");
         }
-        Console.Write("Inserte el segundo numero mayor a 0: ");
+        Console.Write("Ingrese el segundo número: ");
         while (!decimal.TryParse(Console.ReadLine(), out num2) || num2 == 0)
         {
-            Console.WriteLine("Mensaje!: Debe ingresar un número válido y mayor a 0.");
+            Console.WriteLine("\nMensaje!: Debe ingresar un número válido y mayor a 0.");
+            Console.Write("\nIngrese el segundo número: ");
         }
 
         Console.Write("\nEl cociente de esta operación es: ");
@@ -156,6 +164,6 @@ do
 } while (opcion != 5); // valida que el numero sea difierente a 5 para continuar en el programa
 
 // mensaje de salida
-Console.WriteLine("***** FIN DEL SISTEMA *****");
+Console.WriteLine("\n***** FIN DEL SISTEMA *****");
 
 
