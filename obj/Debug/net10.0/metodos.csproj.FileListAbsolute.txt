@@ -1,0 +1,14 @@
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.GeneratedMSBuildEditorConfig.editorconfig
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.AssemblyInfoInputs.cache
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.AssemblyInfo.cs
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.csproj.CoreCompileInputs.cache
+/home/crixfer/Documents/C# Course/metodos/metodos/bin/Debug/net10.0/metodos
+/home/crixfer/Documents/C# Course/metodos/metodos/bin/Debug/net10.0/metodos.deps.json
+/home/crixfer/Documents/C# Course/metodos/metodos/bin/Debug/net10.0/metodos.runtimeconfig.json
+/home/crixfer/Documents/C# Course/metodos/metodos/bin/Debug/net10.0/metodos.dll
+/home/crixfer/Documents/C# Course/metodos/metodos/bin/Debug/net10.0/metodos.pdb
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.dll
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/refint/metodos.dll
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.pdb
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.genruntimeconfig.cache
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/ref/metodos.dll
