@@ -12,3 +12,4 @@
 /home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.pdb
 /home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.genruntimeconfig.cache
 /home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/ref/metodos.dll
+/home/crixfer/Documents/C# Course/metodos/metodos/obj/Debug/net10.0/metodos.sourcelink.json
